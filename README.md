@@ -10,6 +10,12 @@ Your project description goes here. What problem did you solve? How did you solv
 - [x] Use npm init --yes
 - [x] Use npm install express
 - [x] Source nodemon into package.json
+- [x] Create gitignore.txt
+
+- [] In server.js, require express and set PORT
+
+
+
 
 
 * Create a front end experience that allows a user to create a Task.
