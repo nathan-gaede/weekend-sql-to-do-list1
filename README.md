@@ -12,7 +12,26 @@ Your project description goes here. What problem did you solve? How did you solv
 - [x] Source nodemon into package.json
 - [x] Create gitignore.txt
 
-- [] In server.js, require express and set PORT
+- [x] In server.js, require express and set PORT
+
+- [x] Create input field for task in html
+- [x] Create `Add Task` button
+
+- [x] Create database in Postico
+
+- [] Create POST route
+- [] Use an $.ajax request in client.js
+- [] Use an app.post in server.js
+
+- [] Create GET route
+- [] Use an $.ajax request in client.js
+- [] Use a app.get in server.js
+
+- [] Create POST route
+
+
+
+
 
 
 
