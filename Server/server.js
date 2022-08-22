@@ -10,7 +10,7 @@ app.use(express.urlencoded({extended: true}));
 
 //Send requests with url 'task' to task.router.js
 const taskRouter = require('./routes/task.router.js');
-app.use('/task', taskRouter);
+app.use('/tasks', taskRouter);
 
 //Commenting app.post out to set up router
 // app.post('/tasks', (req, res) => {
