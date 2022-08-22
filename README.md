@@ -20,12 +20,12 @@ Your project description goes here. What problem did you solve? How did you solv
 - [x] Create database in Postico
 
 - [] Create POST route
-- [] Use an $.ajax request in client.js
-- [] Use an app.post in server.js
+- [x] Use an $.ajax request in client.js
+- [x] Use an app.post in server.js
 
 - [] Create GET route
 - [] Use an $.ajax request in client.js
-- [] Use a app.get in server.js
+- [] Use an app.get in server.js
 - [] Loop through each object upon page load
 - [] Use .append to update the DOM
 - [] 
@@ -36,6 +36,8 @@ Your project description goes here. What problem did you solve? How did you solv
 
 
 - [x] Install pg, npm install pg
+- [] Investigate the gitignore file, seems like it's not ignoring node_modules
+
 
 
 
