@@ -4,7 +4,8 @@ $(document).ready(readyNow);
 
 function readyNow() {
     //console.log('jquery sourced');
-    $(document).on('click', '#task-submit', addTask)
+    $(document).on('click', '#task-submit', addTask);
+    getTasks();
 }
 
 function addTask() {

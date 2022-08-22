@@ -19,20 +19,21 @@ Your project description goes here. What problem did you solve? How did you solv
 
 - [x] Create database in Postico
 
-- [] Create POST route
+- [x] Create POST route
 - [x] Use an $.ajax request in client.js
 - [x] Use an app.post in server.js
 
-- [] Create GET route
-- [] Use an $.ajax request in client.js
-- [] Use an app.get in server.js
-- [] Loop through each object upon page load
-- [] Use .append to update the DOM
-- [] 
+- [x] Create GET route
+- [x] Use an $.ajax request in client.js
+- [x] Use an app.get in server.js
+- [x] Loop through each object upon page load
+- [x] Use .append to update the DOM
+- [] Find way to display only the task string, not the whole object
+- [x] Empty input field on click 
 
-- [] Create `routes` folder
-- [] Create router file, task.router.js
-- [] Require express 
+- [x] Create `routes` folder
+- [x] Create router file, task.router.js
+- [x] Require express 
 
 
 - [x] Install pg, npm install pg

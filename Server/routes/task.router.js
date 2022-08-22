@@ -4,7 +4,10 @@ const pool = require('../modules/pool.js');
 
 router.post('/', (req, res) => {
     console.log('in POST /tasks');
-    const taskInput = req.body;
+    //Was using req.body initially, this was displaying an
+    //object on the DOM. Adding .task fixes this and only displays
+    //the task string 
+    const taskInput = req.body.task;
     const queryText = `INSERT INTO "task list" ("task")
     VALUES ($1);`
     pool.query(queryText, [taskInput])
