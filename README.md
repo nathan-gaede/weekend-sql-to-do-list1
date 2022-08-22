@@ -26,8 +26,18 @@ Your project description goes here. What problem did you solve? How did you solv
 - [] Create GET route
 - [] Use an $.ajax request in client.js
 - [] Use a app.get in server.js
+- [] Loop through each object upon page load
+- [] Use .append to update the DOM
+- [] 
 
-- [] Create POST route
+- [] Create `routes` folder
+- [] Create router file, task.router.js
+- [] Require express 
+
+
+- [x] Install pg, npm install pg
+
+
 
 
 
