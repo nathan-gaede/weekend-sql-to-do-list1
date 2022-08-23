@@ -5,6 +5,7 @@ $(document).ready(readyNow);
 function readyNow() {
     //console.log('jquery sourced');
     $(document).on('click', '#task-submit', addTask);
+    $(document).on('click', '.check-as-complete', markAsComplete);
     getTasks();
 }
 
@@ -40,8 +41,8 @@ function getTasks() {
             $('#taskTable').append(`
                 <tr>
                     <td>${taskReturn.task}</td>
-                    <td><button id="task-complete">Complete</button></td>
-                    <td><button id="delete-task">Delete</button></td>
+                    <td><button class="check-as-complete" data-id="${taskReturn.id}">Complete</button></td>
+                    <td><button data-id="${taskReturn.id}">Delete</button></td>
                 </tr>
             
             `);
@@ -53,5 +54,10 @@ function getTasks() {
 
 }
 
+function markAsComplete() {
+    console.log('in markAsComplete');
+    //PUT route
+    console.log($(this).data('id'))
 
+}
 
