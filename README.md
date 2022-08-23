@@ -39,6 +39,30 @@ Your project description goes here. What problem did you solve? How did you solv
 - [x] Install pg, npm install pg
 - [] Investigate the gitignore file, seems like it's not ignoring node_modules
 
+- [x] When task is added with `Add Task` button, update DOM to create 
+      a `Complete` and `Delete` button for each task
+- [] `Complete` button should change the background-color of the task container 
+      to represent it's completion (CSS that hooks into client logic) Search how to change a CSS using jquery. .addClass()
+- [] `Complete` button should display as 'checked off' when clicked (client.js triggers a CSS edit)
+- [] When `Complete` button is clicked, database should be updated to reflect change of status
+- [] Call the Update route when `Complete` button is clicked
+
+- [] Update route needs to be created with PUT route 
+- [] $.ajax request on client side 
+- [] router.put function on task.router.js side
+- [] Use Postico to write SQL UPDATE code
+- [] Look at creating another table row in database to store completed status
+- [] Tell router.put what to change "completed" to
+- [] 
+
+- [] Delete route similar to Update route with 
+      different syntax
+
+
+
+
+
+
 
 
 

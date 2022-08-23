@@ -1,6 +1,7 @@
 CREATE TABLE "task list" (
 "id" serial primary key,
-"task" varchar(120)
+"task" varchar(120),
+"completed" boolean default false
 );
 
 INSERT INTO "task list" ("task")
